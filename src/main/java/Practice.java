@@ -1,17 +1,3 @@
-# Math and Casting Lab
-
-## Learning Goals
-
-- Practice using the `Math` class methods we have learned while also
-  exploring various types of casting
-
-## Instructions
-
-Let's get some practice with using the methods we learned in the `Math` class!
-Help complete the starter code below:
-
-
-```java
 public class Practice {
 
     private final double firstNumber = 16;
@@ -108,4 +94,3 @@ public class Practice {
 
     }
 }
-```
