@@ -14,30 +14,30 @@ public class Practice {
 
     /**
      * Take the absolute value of the square root of the
-     * firstNumber and return it as a double.
-     * @return double - square root of firstNumber.
+     * firstNumber and return it as an int.
+     * @return int - square root of firstNumber.
      */
-    public double positiveSquareRoot() {
+    public int positiveSquareRoot() {
 
-        return 0.0;
+        return 0;
     }
 
     /**
      * Take the firstNumber and raise it to the secondNumber.
-     * Then return it as an Integer.
-     * @return Integer - firstNumber raised to the secondNumber
+     * Then return it as an int.
+     * @return int - firstNumber raised to the secondNumber
      */
-    public Integer square() {
+    public int square() {
 
         return 0;
     }
 
     /**
      * Take Euler's number (e) and raise it to the secondNumber.
-     * Then return it as a Double.
-     * @return
+     * Then return it as a double.
+     * @return double - e raised to the secondNumber
      */
-    public Double eSquared() {
+    public double eSquared() {
 
         return 0.0;
     }
@@ -59,6 +59,7 @@ public class Practice {
      */
     public void printFloorSquared() {
         double pi = Math.PI;
+
     }
 
     /**
@@ -74,17 +75,21 @@ public class Practice {
     /**
      * Find the minimum and maximum values between
      * firstNumber and secondNumber. Then print out the
-     * values as doubles.
+     * values as Doubles.
      */
     public void printMinAndMax() {
+        Double minimum;
+        Double maximum;
 
+        System.out.println("The minimum is " + minimum);
+        System.out.println("The maximum is " + maximum);
     }
 
     public static void main(String[] args) {
         Practice practice = new Practice();
 
         practice.printNumbers();
-        System.out.print("The square root is " + practice.positiveSquareRoot());
+        System.out.println("The square root is " + practice.positiveSquareRoot());
         System.out.println("The square is " + practice.square());
         System.out.println("e squared is " + practice.eSquared());
         practice.printRandom();
